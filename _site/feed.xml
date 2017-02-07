@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moca - Architecte &amp; Décoratrice</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/</link>
+    <atom:link href="http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 07 Feb 2017 01:18:24 +0100</pubDate>
+    <lastBuildDate>Tue, 07 Feb 2017 01:18:24 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Les Frangins</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Feb 2017 11:00:00 +0100</pubDate>
+        <link>http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/lesfrangins</link>
+        <guid isPermaLink="true">http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/lesfrangins</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Maison Saint Martial</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Feb 2017 11:00:00 +0100</pubDate>
+        <link>http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/boirargues</link>
+        <guid isPermaLink="true">http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/boirargues</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Terminal#1 Pourcel</title>
+        <description>
+</description>
+        <pubDate>Wed, 10 Aug 2016 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/terminal</link>
+        <guid isPermaLink="true">http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/terminal</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Maison aux Arceaux</title>
+        <description>
+</description>
+        <pubDate>Sun, 01 May 2016 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/maison-aux-arceaux</link>
+        <guid isPermaLink="true">http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/maison-aux-arceaux</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Maison au Perou</title>
+        <description>
+</description>
+        <pubDate>Fri, 11 Mar 2016 11:00:00 +0100</pubDate>
+        <link>http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/maison-au-perou</link>
+        <guid isPermaLink="true">http://localhost:4000file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/maison-au-perou</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

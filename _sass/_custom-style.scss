@@ -1,0 +1,233 @@
+// GENERAL STYLING
+
+body {
+  font-family: champagne;
+  color: #444;
+}
+
+main {
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+// GENERAL - ELEMENTS
+
+a{
+  color: #444;
+}
+
+a:visited{
+  color: #444;
+}
+
+a:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+a.img {
+
+}
+
+
+a.active {
+  text-decoration: underline;
+  text-decoration-color: #888;
+}
+
+address {
+
+}
+
+h1 {
+  font-size: 3.8em;
+  font-weight: bold;
+
+}
+
+i {
+
+}
+
+img {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+span {
+
+}
+
+// SPECIFIC STYLING
+
+//Header
+header.menu {
+  background-color: white;
+
+  img {
+    //background-color: green;
+  }
+
+  nav {
+    //background-color: blue;
+    a {
+      //background-color: red;
+    }
+  }
+}
+
+//Footer
+footer {
+
+}
+
+//Index
+main#index {
+  //background-color: green;
+
+  section {
+    //background-color: yellow;
+
+    div {
+      //background-color: red;
+
+      a {
+
+        h1 {
+
+        }
+      }
+
+      span {
+
+      }
+
+    }
+
+    // a.voir {
+    //   background-color: black;
+    //   border: none;
+    //   color: white;
+    //   text-decoration: none;
+    //   font-size: 16px;
+    // }
+
+    a.img {
+      //background-color: blue;
+
+      img {
+
+      }
+    }
+  }
+}
+
+//Post
+main#post {
+
+  header {
+
+    h1{
+
+    }
+
+    span {
+
+    }
+  }
+
+  div.images {
+
+    a.img {
+
+      img {
+
+      }
+    }
+  }
+
+  div.before {
+
+    a.img {
+
+      img {
+
+      }
+    }
+  }
+}
+
+//Press
+main#press {
+
+  section {
+
+    h1 {
+
+    }
+
+    span {
+
+    }
+
+    img {
+
+    }
+  }
+}
+
+//Projects
+main#projects {
+
+  span {
+
+  }
+
+  img {
+
+  }
+}
+
+// Contact
+main#contact {
+
+  section {
+
+    img {
+
+    }
+
+    address {
+
+      h1 {
+
+      }
+
+      span {
+
+      }
+
+      span.glyphicon {
+
+      }
+
+      i.fa {
+
+      }
+    }
+  }
+}

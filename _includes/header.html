@@ -1,0 +1,45 @@
+<header class="menu">
+  <div class="opacity">
+    <a href="{{ post.url | prepend: site.baseurl }}/index.html">
+      <img src="{{ site.baseurl }}/img/logo.png" alt="logo" class="logo">
+    </a>
+    <nav>
+      {% if page.active == post %}
+        {% if page.type == "fini" %}
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+        {% endif %}
+        {% if page.type == "projet" %}
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/projects.html">Bientôt</a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}/projects.html">Bientôt</a>
+        {% endif %}
+        <a href="{{ post.url | prepend: site.baseurl }}/press.html">Presse</a>
+        <a href="{{ post.url | prepend: site.baseurl }}/contact.html">Contact</a>
+      {% else %}
+        {% if page.active == "index" %}
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+        {% endif %}
+        {% if page.active == "projects" %}
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/projects.html">Bientôt</a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}/projects.html">Bientôt</a>
+        {% endif %}
+        {% if page.active == "press" %}
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/press.html">Presse</a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}/press.html">Presse</a>
+        {% endif %}
+        {% if page.active == "contact" %}
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/contact.html">Contact</a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}/contact.html">Contact</a>
+        {% endif %}
+      {% endif %}
+    </nav>
+  </div>
+</header>
+<div class="empty"></div>

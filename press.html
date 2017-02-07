@@ -1,0 +1,26 @@
+---
+layout: default
+active: press
+---
+
+<main id="press">
+  {% for article in site.data.articles %}
+    <section>
+      <h1>{{ article.title }}</h1>
+      <span>{{ article.description }}</span>
+      {% for i in (1..99) %}
+        {% if forloop.index > article.img_num %}
+          {% break %}
+        {% else %}
+          {% if article.link == none %}
+            <img src="{{ site.baseurl }}/img/press/{{ article.img_folder }}/{{ i }}.jpg" alt="{{ article.description }}">
+          {% else %}
+            <a href="{{ article.link }}">
+              <img src="{{ site.baseurl }}/img/press/{{ article.img_folder }}/{{ i }}.jpg" alt="{{ article.description }}">
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </section>
+  {% endfor %}
+</main>
