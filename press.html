@@ -12,7 +12,7 @@ active: press
         {% if forloop.index > article.img_num %}
           {% break %}
         {% else %}
-          {% if article.link == none %}
+          {% if article.link == "none" %}
             <img src="{{ site.baseurl }}/img/press/{{ article.img_folder }}/{{ i }}.jpg" alt="{{ article.description }}">
           {% else %}
             <a href="{{ article.link }}">
