@@ -12,6 +12,8 @@ active: projects
         <a href="{{ post.url | prepend: site.baseurl }}.html">
           <h1>{{ post.title }}</h1>
         </a>
+        <p>{{ post.subtitle1 }}</p>
+        <p>{{ post.subtitle2 }}</p>
         <p>{{ post.location }}</p>
         <p>{{ post.date | date: "%-d %b %Y" }}</p>
       </div>

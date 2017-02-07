@@ -2,6 +2,8 @@
 layout: post
 type: projet
 title:  "Les Frangins"
+subtitle1:
+subtitle2:
 date:   2017-02-01 12:00:00 +0200
 location: "Montpellier"
 img_folder: "lesfrangins"

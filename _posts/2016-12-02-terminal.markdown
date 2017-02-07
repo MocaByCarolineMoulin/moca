@@ -2,6 +2,8 @@
 layout: post
 type: fini
 title:  "Terminal#1 Pourcel"
+subtitle1: "Réalisé"
+subtitle2:
 date:   2016-08-10 12:00:00 +0200
 location: "Montpellier"
 img_folder: "terminal"
