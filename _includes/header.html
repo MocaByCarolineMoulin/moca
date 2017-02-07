@@ -6,9 +6,9 @@
     <nav>
       {% if page.active == post %}
         {% if page.type == "fini" %}
-          <a class="active" href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/index.html">Projets</a>
         {% else %}
-          <a href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+          <a href="{{ post.url | prepend: site.baseurl }}/index.html">Projets</a>
         {% endif %}
         {% if page.type == "projet" %}
           <a class="active" href="{{ post.url | prepend: site.baseurl }}/projects.html">Bientôt</a>
@@ -19,9 +19,9 @@
         <a href="{{ post.url | prepend: site.baseurl }}/contact.html">Contact</a>
       {% else %}
         {% if page.active == "index" %}
-          <a class="active" href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+          <a class="active" href="{{ post.url | prepend: site.baseurl }}/index.html">Projets</a>
         {% else %}
-          <a href="{{ post.url | prepend: site.baseurl }}/index.html">Réalisations</a>
+          <a href="{{ post.url | prepend: site.baseurl }}/index.html">Projets</a>
         {% endif %}
         {% if page.active == "projects" %}
           <a class="active" href="{{ post.url | prepend: site.baseurl }}/projects.html">Bientôt</a>
