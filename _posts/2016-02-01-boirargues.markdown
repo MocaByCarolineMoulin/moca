@@ -4,7 +4,8 @@ type: projet
 title:  "Maison Saint Martial"
 subtitle1:
 subtitle2:
-date:   2017-02-01 12:00:00 +0200
+date:   2016-02-02 12:00:00 +0200
+date_fr: "2 Février 2016"
 location: "Boirargues"
 img_folder: "boirargues"
 img_num: 1
