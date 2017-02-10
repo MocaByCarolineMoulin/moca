@@ -51,7 +51,8 @@
   <header>
     <h1>Maison aux Arceaux</h1>
     <span>Montpellier</span>
-    <span>1 May 2016</span>
+    <span></span>
+    <span></span>
   </header>
   <div class="gallery images">
     
@@ -148,6 +149,7 @@
       
         
   </div>
+  
   <div class="gallery before">
     <hr>
     <h1>Avant</h1>
@@ -179,11 +181,16 @@
       
         
   </div>
+  
   <div class="links">
     <hr>
     
       <h1 id="other-title">Autres Réalisations</h1>
     
+    
+      
+    
+      
     
       
         <a id="terminal" href="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/terminal.html">
@@ -207,6 +214,36 @@
   </div>
 
 </main>
+
+  
+    <script>
+      document.getElementById("foodandsens").onmouseover = function() {mouseOverfoodandsens()};
+      document.getElementById("foodandsens").onmouseout = function() {mouseOutfoodandsens()};
+
+      function mouseOverfoodandsens() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations: Food and Sens";
+      }
+
+      function mouseOutfoodandsens() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations";
+      }
+    </script>
+  
+
+  
+    <script>
+      document.getElementById("midilibre").onmouseover = function() {mouseOvermidilibre()};
+      document.getElementById("midilibre").onmouseout = function() {mouseOutmidilibre()};
+
+      function mouseOvermidilibre() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations: Midi Libre";
+      }
+
+      function mouseOutmidilibre() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations";
+      }
+    </script>
+  
 
   
     <script>

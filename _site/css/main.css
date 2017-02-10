@@ -2001,22 +2001,22 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row, div.page-content, header.menu, main#index section, main#projects section, main#index section div.info, main#projects section div.info, main#index section div.poster, main#projects section div.poster, main#post, main#post div.links, main#press, main#contact section {
+.row, div.page-content, header.menu, main#index section, main#projects section, main#press section, main#index section div.info, main#projects section div.info, main#press section div.info, main#index section div.poster, main#projects section div.poster, main#press section div.poster, main#post, main#post div.links, main#press, main#contact section {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, div.page-content:before, header.menu:before, main#index section:before, main#projects section:before, main#index section div.info:before, main#projects section div.info:before, main#index section div.poster:before, main#projects section div.poster:before, main#post:before, main#post div.links:before, main#press:before, main#contact section:before, .row:after, div.page-content:after, header.menu:after, main#index section:after, main#projects section:after, main#index section div.info:after, main#projects section div.info:after, main#index section div.poster:after, main#projects section div.poster:after, main#post:after, main#post div.links:after, main#press:after, main#contact section:after {
+  .row:before, div.page-content:before, header.menu:before, main#index section:before, main#projects section:before, main#press section:before, main#index section div.info:before, main#projects section div.info:before, main#press section div.info:before, main#index section div.poster:before, main#projects section div.poster:before, main#press section div.poster:before, main#post:before, main#post div.links:before, main#press:before, main#contact section:before, .row:after, div.page-content:after, header.menu:after, main#index section:after, main#projects section:after, main#press section:after, main#index section div.info:after, main#projects section div.info:after, main#press section div.info:after, main#index section div.poster:after, main#projects section div.poster:after, main#press section div.poster:after, main#post:after, main#post div.links:after, main#press:after, main#contact section:after {
     content: " ";
     display: table; }
-  .row:after, div.page-content:after, header.menu:after, main#index section:after, main#projects section:after, main#index section div.info:after, main#projects section div.info:after, main#index section div.poster:after, main#projects section div.poster:after, main#post:after, main#post div.links:after, main#press:after, main#contact section:after {
+  .row:after, div.page-content:after, header.menu:after, main#index section:after, main#projects section:after, main#press section:after, main#index section div.info:after, main#projects section div.info:after, main#press section div.info:after, main#index section div.poster:after, main#projects section div.poster:after, main#press section div.poster:after, main#post:after, main#post div.links:after, main#press:after, main#contact section:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, header.menu div.opacity nav, .col-sm-2, .col-md-2, .col-lg-2, header.menu div.opacity img, .col-xs-3, main#post div.links a, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, header.menu div.opacity img, .col-md-4, header.menu div.opacity img, main#contact section img, main#contact section address, .col-lg-4, header.menu div.opacity nav, .col-xs-5, .col-sm-5, header.menu div.opacity nav, .col-md-5, header.menu div.opacity nav, .col-lg-5, .col-xs-6, header.menu div.opacity img, .col-sm-6, .col-md-6, main#post div.gallery a:not(:first-child), .col-lg-6, .col-xs-7, .col-sm-7, main#index section, main#projects section, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, main#post, .col-md-8, main#press section, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, main#post div.gallery a:first-child, .col-lg-9, .col-xs-10, main#index section, main#projects section, main#post, .col-sm-10, main#press section, main#contact section img, main#contact section address, .col-md-10, main#post header, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, main#post div.gallery a:first-child, main#post div.gallery a:not(:first-child), main#post div.links h1, main#press section, main#contact section img, main#contact section address, .col-sm-12, main#index section div.poster, main#projects section div.poster, main#index section div.poster a, main#projects section div.poster a, main#post div.before hr, main#post div.before h1, main#post div.links hr, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, header.menu div.opacity nav, .col-sm-2, .col-md-2, .col-lg-2, header.menu div.opacity img, .col-xs-3, main#post div.links a, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, header.menu div.opacity img, .col-md-4, header.menu div.opacity img, main#contact section img, main#contact section address, .col-lg-4, header.menu div.opacity nav, .col-xs-5, .col-sm-5, header.menu div.opacity nav, .col-md-5, header.menu div.opacity nav, .col-lg-5, .col-xs-6, header.menu div.opacity img, .col-sm-6, .col-md-6, main#post div.gallery a:not(:first-child), .col-lg-6, .col-xs-7, .col-sm-7, main#index section, main#projects section, main#press section, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, main#post, .col-md-8, main#press section, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, main#post div.gallery a:first-child, .col-lg-9, .col-xs-10, main#index section, main#projects section, main#press section, main#post, .col-sm-10, main#press section, main#contact section img, main#contact section address, .col-md-10, main#post header, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, main#post div.gallery a:first-child, main#post div.gallery a:not(:first-child), main#post div.links h1, main#press section, main#contact section img, main#contact section address, .col-sm-12, main#index section div.poster, main#projects section div.poster, main#press section div.poster, main#index section div.poster a, main#projects section div.poster a, main#press section div.poster a, main#post div.before hr, main#post div.before h1, main#post div.links hr, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, header.menu div.opacity nav, .col-xs-3, main#post div.links a, .col-xs-4, .col-xs-5, .col-xs-6, header.menu div.opacity img, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, main#index section, main#projects section, main#post, .col-xs-11, .col-xs-12, main#post div.gallery a:first-child, main#post div.gallery a:not(:first-child), main#post div.links h1, main#press section, main#contact section img, main#contact section address {
+.col-xs-1, .col-xs-2, header.menu div.opacity nav, .col-xs-3, main#post div.links a, .col-xs-4, .col-xs-5, .col-xs-6, header.menu div.opacity img, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, main#index section, main#projects section, main#press section, main#post, .col-xs-11, .col-xs-12, main#post div.gallery a:first-child, main#post div.gallery a:not(:first-child), main#post div.links h1, main#press section, main#contact section img, main#contact section address {
   float: left; }
 
 .col-xs-1 {
@@ -2046,7 +2046,7 @@ pre {
 .col-xs-9 {
   width: 75%; }
 
-.col-xs-10, main#index section, main#projects section, main#post {
+.col-xs-10, main#index section, main#projects section, main#press section, main#post {
   width: 83.33333%; }
 
 .col-xs-11 {
@@ -2136,7 +2136,7 @@ pre {
 .col-xs-offset-0, header.menu div.opacity img {
   margin-left: 0%; }
 
-.col-xs-offset-1, main#index section, main#projects section, main#post {
+.col-xs-offset-1, main#index section, main#projects section, main#press section, main#post {
   margin-left: 8.33333%; }
 
 .col-xs-offset-2, header.menu div.opacity nav {
@@ -2173,7 +2173,7 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, header.menu div.opacity img, .col-sm-5, header.menu div.opacity nav, .col-sm-6, .col-sm-7, main#index section, main#projects section, .col-sm-8, main#post, .col-sm-9, .col-sm-10, main#press section, main#contact section img, main#contact section address, .col-sm-11, .col-sm-12, main#index section div.poster, main#projects section div.poster, main#index section div.poster a, main#projects section div.poster a, main#post div.before hr, main#post div.before h1, main#post div.links hr {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, header.menu div.opacity img, .col-sm-5, header.menu div.opacity nav, .col-sm-6, .col-sm-7, main#index section, main#projects section, main#press section, .col-sm-8, main#post, .col-sm-9, .col-sm-10, main#press section, main#contact section img, main#contact section address, .col-sm-11, .col-sm-12, main#index section div.poster, main#projects section div.poster, main#press section div.poster, main#index section div.poster a, main#projects section div.poster a, main#press section div.poster a, main#post div.before hr, main#post div.before h1, main#post div.links hr {
     float: left; }
 
   .col-sm-1 {
@@ -2194,7 +2194,7 @@ pre {
   .col-sm-6 {
     width: 50%; }
 
-  .col-sm-7, main#index section, main#projects section {
+  .col-sm-7, main#index section, main#projects section, main#press section {
     width: 58.33333%; }
 
   .col-sm-8, main#post {
@@ -2209,7 +2209,7 @@ pre {
   .col-sm-11 {
     width: 91.66667%; }
 
-  .col-sm-12, main#index section div.poster, main#projects section div.poster, main#index section div.poster a, main#projects section div.poster a, main#post div.before hr, main#post div.before h1, main#post div.links hr {
+  .col-sm-12, main#index section div.poster, main#projects section div.poster, main#press section div.poster, main#index section div.poster a, main#projects section div.poster a, main#press section div.poster a, main#post div.before hr, main#post div.before h1, main#post div.links hr {
     width: 100%; }
 
   .col-sm-pull-0 {
@@ -2296,7 +2296,7 @@ pre {
   .col-sm-offset-1, main#press section, main#contact section img, main#contact section address {
     margin-left: 8.33333%; }
 
-  .col-sm-offset-2, header.menu div.opacity img, main#index section, main#projects section, main#index section.even div.poster a, main#projects section.even div.poster a, main#post {
+  .col-sm-offset-2, header.menu div.opacity img, main#index section, main#projects section, main#press section, main#index section.even div.poster a, main#projects section.even div.poster a, main#press section.even div.poster a, main#post {
     margin-left: 16.66667%; }
 
   .col-sm-offset-3 {
@@ -6312,10 +6312,10 @@ div.empty {
     div.empty {
       padding-top: 170px; } }
 
-main#index section, main#projects section {
+main#index section, main#projects section, main#press section {
   padding: 0 0 100px 0;
   position: relative; }
-  main#index section hr, main#projects section hr {
+  main#index section hr, main#projects section hr, main#press section hr {
     height: 2px;
     background: black;
     width: 50%;
@@ -6323,39 +6323,39 @@ main#index section, main#projects section {
     margin-bottom: 80px;
     margin-top: -30px; }
     @media (max-width: 768px) {
-      main#index section hr, main#projects section hr {
+      main#index section hr, main#projects section hr, main#press section hr {
         margin-bottom: 5px; } }
   @media (min-width: 769px) {
-    main#index section div.info, main#projects section div.info {
+    main#index section div.info, main#projects section div.info, main#press section div.info {
       top: 105px;
       right: 1px;
       position: absolute;
       z-index: 2; } }
   @media (min-width: 1200px) {
-    main#index section div.info a h1, main#projects section div.info a h1 {
+    main#index section div.info a h1, main#projects section div.info a h1, main#press section div.info a h1 {
       font-size: 6em; } }
-  main#index section div.info p, main#projects section div.info p {
+  main#index section div.info p, main#projects section div.info p, main#press section div.info p {
     font-size: 1.7em; }
     @media (max-width: 768px) {
-      main#index section div.info p, main#projects section div.info p {
+      main#index section div.info p, main#projects section div.info p, main#press section div.info p {
         font-size: 1.3em; } }
-  main#index section div.poster a, main#projects section div.poster a {
+  main#index section div.poster a, main#projects section div.poster a, main#press section div.poster a {
     padding: 0; }
-main#index section.odd div.info, main#projects section.odd div.info {
+main#index section.odd div.info, main#projects section.odd div.info, main#press section.odd div.info {
   margin-right: -12%; }
 @media (min-width: 769px) {
-  main#index section.odd p, main#projects section.odd p {
+  main#index section.odd p, main#projects section.odd p, main#press section.odd p {
     text-align: right; } }
 @media (min-width: 769px) {
-  main#index section.even div.info, main#projects section.even div.info {
+  main#index section.even div.info, main#projects section.even div.info, main#press section.even div.info {
     top: 105px;
     left: 1px; } }
-main#index section.even p, main#projects section.even p {
+main#index section.even p, main#projects section.even p, main#press section.even p {
   text-align: left; }
 @media (min-width: 769px) {
-  main#index section.even div.poster a, main#projects section.even div.poster a {
+  main#index section.even div.poster a, main#projects section.even div.poster a, main#press section.even div.poster a {
     margin-top: -30px; } }
-main#index section:first-of-type hr, main#projects section:first-of-type hr {
+main#index section:first-of-type hr, main#projects section:first-of-type hr, main#press section:first-of-type hr {
   margin-bottom: 40px; }
 
 main#post {

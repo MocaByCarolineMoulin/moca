@@ -10,6 +10,7 @@ active: post
     <h1>{{ page.title }}</h1>
     <span>{{ page.location }}</span>
     <span>{{ post.date_fr }}</span>
+    <span>{{ post.link }}</span>
   </header>
   <div class="gallery images">
     {% for i in (1..99) %}
@@ -22,6 +23,7 @@ active: post
       {% endif %}
     {% endfor %}
   </div>
+  {% if page.type != "article" %}
   <div class="gallery before">
     <hr>
     <h1>Avant</h1>
@@ -35,6 +37,7 @@ active: post
       {% endif %}
     {% endfor %}
   </div>
+  {% endif %}
   <div class="links">
     <hr>
     {% if page.type == "fini" %}
