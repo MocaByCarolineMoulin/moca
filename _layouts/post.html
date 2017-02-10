@@ -9,7 +9,7 @@ active: post
   <header>
     <h1>{{ page.title }}</h1>
     <span>{{ page.location }}</span>
-    <span>{{ page.date | date: "%-d %b %Y" }}</span>
+    <span>{{ post.date_fr }}</span>
   </header>
   <div class="gallery images">
     {% for i in (1..99) %}
