@@ -4,6 +4,31 @@ active: press
 ---
 
 <main id="press">
+  {% for post in site.posts %}
+    {% if post.type == "article" %}
+      <section class="{% cycle 'odd', 'even' %}">
+        <hr>
+        <div class="info">
+          <a href="{{ post.url | prepend: site.baseurl }}.html">
+            <h1>{{ post.title }}</h1>
+          </a>
+          <p>{{ post.subtitle1 }}</p>
+          <p>{{ post.subtitle2 }}</p>
+          <p>{{ post.location }}</p>
+          <p>{{ post.date_fr }}</p>
+        </div>
+        <!-- <a class="voir" href="{{ post.url | prepend: site.baseurl }}.html">Voir +</a> -->
+        <div class="poster">
+          <a class="img" href="{{ post.url | prepend: site.baseurl }}.html">
+            <img src="{{ site.baseurl }}/img/{{ post.img_folder }}/{{ post.poster }}" alt="Image de presentation">
+          </a>
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</main>
+
+<!-- <main id="press">
   {% for article in site.data.articles %}
     <section>
       <h1>{{ article.title }}</h1>
@@ -23,4 +48,4 @@ active: press
       {% endfor %}
     </section>
   {% endfor %}
-</main>
+</main> -->

@@ -41,6 +41,8 @@ active: post
       <h1 id="other-title">Autres Réalisations</h1>
     {% elsif page.type == "projet" %}
       <h1 id="other-title">Autres Projets</h1>
+    {% elsif page.type == "article" %}
+      <h1 id="other-title">Autres Articles</h1>
     {% endif %}
     {% for post in site.posts %}
       {% if post.title != page.title and post.type == page.type %}
@@ -78,6 +80,19 @@ active: post
 
       function mouseOut{{ post.img_folder }}() {
           document.getElementById("other-title").innerHTML = "Autres Projets";
+      }
+    </script>
+  {% elsif page.type == "article" %}
+    <script>
+      document.getElementById("{{ post.img_folder }}").onmouseover = function() {mouseOver{{ post.img_folder }}()};
+      document.getElementById("{{ post.img_folder }}").onmouseout = function() {mouseOut{{ post.img_folder }}()};
+
+      function mouseOver{{ post.img_folder }}() {
+          document.getElementById("other-title").innerHTML = "Autres Articles: {{ post.title }}";
+      }
+
+      function mouseOut{{ post.img_folder }}() {
+          document.getElementById("other-title").innerHTML = "Autres Articles";
       }
     </script>
   {% endif %}
