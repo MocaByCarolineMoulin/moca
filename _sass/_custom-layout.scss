@@ -83,7 +83,7 @@ footer {
 
 }
 
-//Index & projects
+//Index, projects & press
 main#index, main#projects, main#press {
 
   section {
@@ -322,29 +322,29 @@ main#post {
 }
 
 //Press
-main#press {
-  @extend .row;
-
-  section {
-    @extend .col-xs-12;
-    @extend .col-sm-10;
-    @extend .col-sm-offset-1;
-    @extend .col-md-8;
-    @extend .col-md-offset-2;
-
-    h1 {
-
-    }
-
-    span {
-
-    }
-
-    img {
-      padding-bottom: 15px;
-    }
-  }
-}
+// main#press {
+//   @extend .row;
+//
+//   section {
+//     @extend .col-xs-12;
+//     @extend .col-sm-10;
+//     @extend .col-sm-offset-1;
+//     @extend .col-md-8;
+//     @extend .col-md-offset-2;
+//
+//     h1 {
+//
+//     }
+//
+//     span {
+//
+//     }
+//
+//     img {
+//       padding-bottom: 15px;
+//     }
+//   }
+// }
 
 
 // Contact
