@@ -52,7 +52,7 @@
     <h1>Midi Libre</h1>
     <span>Montpellier</span>
     <span>10 Aout 2016</span>
-    <span>none</span>
+    
   </header>
   <div class="gallery images">
     
@@ -75,6 +75,12 @@
       
         <a id="foodandsens" href="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/foodandsens.html">
           <img src="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/img/foodandsens/couverture.jpg" alt="Food and Sens">
+        </a>
+      
+    
+      
+        <a id="metropolitain" href="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/metropolitain.html">
+          <img src="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/img/metropolitain/couverture.jpg" alt="Metropolitain">
         </a>
       
     
@@ -105,6 +111,21 @@
       }
 
       function mouseOutfoodandsens() {
+          document.getElementById("other-title").innerHTML = "Autres Articles";
+      }
+    </script>
+  
+
+  
+    <script>
+      document.getElementById("metropolitain").onmouseover = function() {mouseOvermetropolitain()};
+      document.getElementById("metropolitain").onmouseout = function() {mouseOutmetropolitain()};
+
+      function mouseOvermetropolitain() {
+          document.getElementById("other-title").innerHTML = "Autres Articles: Metropolitain";
+      }
+
+      function mouseOutmetropolitain() {
           document.getElementById("other-title").innerHTML = "Autres Articles";
       }
     </script>

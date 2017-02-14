@@ -52,7 +52,7 @@
     <h1>Terminal#1 Pourcel</h1>
     <span>Montpellier</span>
     <span>10 Aout 2016</span>
-    <span></span>
+    
   </header>
   <div class="gallery images">
     
@@ -267,6 +267,8 @@
       
     
       
+    
+      
         <a id="maison_aux_arceaux" href="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/maison-aux-arceaux.html">
           <img src="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/img/maison_aux_arceaux/couverture.jpg" alt="Maison aux Arceaux">
         </a>
@@ -297,6 +299,21 @@
       }
 
       function mouseOutfoodandsens() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations";
+      }
+    </script>
+  
+
+  
+    <script>
+      document.getElementById("metropolitain").onmouseover = function() {mouseOvermetropolitain()};
+      document.getElementById("metropolitain").onmouseout = function() {mouseOutmetropolitain()};
+
+      function mouseOvermetropolitain() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations: Metropolitain";
+      }
+
+      function mouseOutmetropolitain() {
           document.getElementById("other-title").innerHTML = "Autres Réalisations";
       }
     </script>

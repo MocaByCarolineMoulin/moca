@@ -6432,3 +6432,7 @@ h1 {
 
 header.menu {
   background-color: white; }
+
+main#post header a span {
+  text-decoration: underline;
+  color: black; }

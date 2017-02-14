@@ -52,7 +52,7 @@
     <h1>Maison au Perou</h1>
     <span>Montpellier</span>
     <span>3 Novembre 2016</span>
-    <span></span>
+    
   </header>
   <div class="gallery images">
     
@@ -241,6 +241,8 @@
       
     
       
+    
+      
         <a id="terminal" href="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/terminal.html">
           <img src="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/img/terminal/couverture.jpg" alt="Terminal#1 Pourcel">
         </a>
@@ -273,6 +275,21 @@
       }
 
       function mouseOutfoodandsens() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations";
+      }
+    </script>
+  
+
+  
+    <script>
+      document.getElementById("metropolitain").onmouseover = function() {mouseOvermetropolitain()};
+      document.getElementById("metropolitain").onmouseout = function() {mouseOutmetropolitain()};
+
+      function mouseOvermetropolitain() {
+          document.getElementById("other-title").innerHTML = "Autres Réalisations: Metropolitain";
+      }
+
+      function mouseOutmetropolitain() {
           document.getElementById("other-title").innerHTML = "Autres Réalisations";
       }
     </script>

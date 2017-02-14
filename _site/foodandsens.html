@@ -52,7 +52,9 @@
     <h1>Food and Sens</h1>
     <span></span>
     <span>16 Juillet 2016</span>
-    <span>http://foodandsens.com/made-by-f-and-s/chefs-on-parle-de-vous/terminal-1-pop-up-restaurant-freres-pourcel-premieres-images/</span>
+    
+      <a href="http://foodandsens.com/made-by-f-and-s/chefs-on-parle-de-vous/terminal-1-pop-up-restaurant-freres-pourcel-premieres-images/"><span>Lien vers l'article</span></a>
+    
   </header>
   <div class="gallery images">
     
@@ -72,6 +74,12 @@
       <h1 id="other-title">Autres Articles</h1>
     
     
+      
+    
+      
+        <a id="metropolitain" href="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/metropolitain.html">
+          <img src="file:///run/user/1000/gvfs/sftp:host=devraj.local,user=jc/home/jc/Sites/Link_to_moca-master/_site/img/metropolitain/couverture.jpg" alt="Metropolitain">
+        </a>
       
     
       
@@ -105,6 +113,21 @@
       }
 
       function mouseOutfoodandsens() {
+          document.getElementById("other-title").innerHTML = "Autres Articles";
+      }
+    </script>
+  
+
+  
+    <script>
+      document.getElementById("metropolitain").onmouseover = function() {mouseOvermetropolitain()};
+      document.getElementById("metropolitain").onmouseout = function() {mouseOutmetropolitain()};
+
+      function mouseOvermetropolitain() {
+          document.getElementById("other-title").innerHTML = "Autres Articles: Metropolitain";
+      }
+
+      function mouseOutmetropolitain() {
           document.getElementById("other-title").innerHTML = "Autres Articles";
       }
     </script>
