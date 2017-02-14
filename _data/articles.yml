@@ -1,16 +1,17 @@
 - title:        "Midi Libre"
   description:  "Midi Libre du 27 juillet 2016"
-  img_num:      2
+  img_num:      1
   img_folder:   "midi_libre"
   link:         none
 
 - title:       "Food & Sens"
-  description:  "Midi Libre du 27 juillet 2016"
+  description:  "Food and Sens du 16 juillet 2016"
   img_num:      1
   img_folder:   "foodandsens"
   link:         "http://foodandsens.com/made-by-f-and-s/chefs-on-parle-de-vous/terminal-1-pop-up-restaurant-freres-pourcel-premieres-images/"
 
-# - title:        ""
-#   description:  ""
-#   img_num:      1
-#   img_folder:   ""
+- title:        "Métropolitain"
+  description:  "Métropolitain décembre 2016"
+  img_num:      4
+  img_folder:   "metropolitain"
+  link:         none

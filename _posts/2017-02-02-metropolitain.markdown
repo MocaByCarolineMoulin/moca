@@ -1,15 +1,15 @@
 ---
 layout: post
-type: fini
-title:  "Terminal#1 Pourcel"
-subtitle1: "Réalisé"
+type: article
+title:  "Metropolitain"
+subtitle1:
 subtitle2:
 link: none
 date:   2016-08-10 12:00:00 +0200
 date_fr: "10 Aout 2016"
 location: "Montpellier"
-img_folder: "terminal"
-img_num: 17
-before_num: 14
+img_folder: "metropolitain"
+img_num: 4
+before_num: 0
 poster: "couverture.jpg"
 ---

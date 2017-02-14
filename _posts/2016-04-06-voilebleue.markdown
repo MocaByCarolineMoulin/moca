@@ -4,6 +4,7 @@ type: projet
 title:  "La Voile Bleue"
 subtitle1:
 subtitle2:
+link: none
 date:   2017-04-06 12:00:00 +0200
 location: "La Grande Motte"
 img_folder: "voilebleue"
