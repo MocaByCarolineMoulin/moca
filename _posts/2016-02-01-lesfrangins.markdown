@@ -1,6 +1,6 @@
 ---
 layout: post
-type: projet
+type: fini
 title:  "Les Frangins"
 subtitle1:
 subtitle2:
