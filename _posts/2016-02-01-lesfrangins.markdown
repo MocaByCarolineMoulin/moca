@@ -10,6 +10,6 @@ date_fr: "1 Février 2016"
 location: "Montpellier"
 img_folder: "lesfrangins"
 img_num: 5
-before_num: 0
+before_num: 4
 poster: "couverture.jpg"
 ---
