@@ -1,1 +1,15 @@
+---
+layout: post
+type: projet
+title:  "Pourcel"
+subtitle1:
+subtitle2:
+link: none
+date:   2017-04-06 12:00:00 +0200
+location: "Castelnau-le-lez"
+img_folder: "pourcel"
+img_num: 1
+before_num: 0
+poster: "couverture.jpg"
+---
 
