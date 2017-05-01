@@ -1,11 +1,11 @@
 ---
 layout: post
 type: projet
-title:  "Pourcel"
+title: "Pourcel"
 subtitle1:
 subtitle2:
 link: none
-date:   2017-04-06 12:00:00 +0200
+date: 2017-04-06 12:00:00 +0200
 date_fr: "6 Avril 2017"
 location: "Castelnau-le-lez"
 img_folder: "pourcel"
