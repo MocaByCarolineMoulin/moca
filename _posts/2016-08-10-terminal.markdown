@@ -6,7 +6,7 @@ subtitle1: "Réalisé"
 subtitle2: "Architecte : Thomas Bay Maitre d'oeuvre : Pascal Agli Décorateurs: MOCA & Christian Collot"
 link: none
 date:   2016-08-10 12:00:00 +0200
-date_fr: "10 Aout 2016"
+date_fr: "10 Août 2016"
 location: "Montpellier"
 img_folder: "terminal"
 img_num: 17
