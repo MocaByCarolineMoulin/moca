@@ -3,7 +3,7 @@ layout: post
 type: fini
 title:  "Terminal#1 Pourcel"
 subtitle1: "Réalisé"
-subtitle2: "Architecte : Thomas Bay Maitre d'oeuvre : Pascal Agli Décorateur: MOCA et Christian Collot"
+subtitle2: "Architecte : Thomas Bay Maitre d'oeuvre : Pascal Agli Décorateurs: MOCA et Christian Collot"
 link: none
 date:   2016-08-10 12:00:00 +0200
 date_fr: "10 Aout 2016"
