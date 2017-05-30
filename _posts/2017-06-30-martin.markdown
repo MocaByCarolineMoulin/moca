@@ -1,1 +1,16 @@
-2
+---
+layout: post
+type: projet
+title: "Martin"
+subtitle1: "Architecte Mathieu Canonge"
+subtitle2: "Décoration Moca"
+link: none
+date: 2017-04-06 12:00:00 +0200
+date_fr: "15 Décembre 2017"
+location: "Montpellier"
+img_folder: "martin"
+img_num: 1
+before_num: 0
+poster: "couverture.jpg"
+---
+
