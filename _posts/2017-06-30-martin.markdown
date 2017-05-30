@@ -6,7 +6,7 @@ subtitle1: "Architecte Mathieu Canonge"
 subtitle2: "Décoration Moca"
 link: none
 date: 2017-04-06 12:00:00 +0200
-date_fr: "15 Décembre 2017"
+date_fr: "30 Juin 2017"
 location: "Montpellier"
 img_folder: "martin"
 img_num: 1
