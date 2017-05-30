@@ -1,1 +1,16 @@
+---
+layout: post
+type: projet
+title: "Radioshop"
+subtitle1: "Associé avec Christian Collot"
+subtitle2: "Décoration"
+link: none
+date: 2017-04-06 12:00:00 +0200
+date_fr: "30 juin 2017"
+location: "Saint Jean de Védas"
+img_folder: "radioshop"
+img_num: 1
+before_num: 0
+poster: "couverture.jpg"
+---
 
