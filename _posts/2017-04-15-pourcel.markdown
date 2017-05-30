@@ -2,7 +2,7 @@
 layout: post
 type: projet
 title: "Pourcel"
-subtitle1:
+subtitle1: "Associé avec NAS Architecture"
 subtitle2:
 link: none
 date: 2017-04-06 12:00:00 +0200
