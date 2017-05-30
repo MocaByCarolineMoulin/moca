@@ -2,8 +2,8 @@
 layout: post
 type: fini
 title:  "Maison au Perou"
-subtitle1:
-subtitle2:
+subtitle1: Décoration Christian Collot & Moca
+subtitle2: Maitre D'oeuvre Pascal Agli
 link: none
 date:   2016-03-11 12:00:00 +0200
 date_fr: "3 Novembre 2016"
