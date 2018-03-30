@@ -2,8 +2,8 @@ layout: post
 type: fini
 title: "Radioshop"
 date 2017-11-10:00:00 +0200
-lacation: "Saint-Jean-De-Védas"
-img_folder: radioshop"
-img_num:10
-before_num: 7
-poster: "couverture.jpg"
+location: "Saint-Jean-De-Védas"
+img_folder: "radioshop"
+img_num: 9
+before_num:0
+poster:"couverture.jpg"
