@@ -1,6 +1,6 @@
 ---
 layout: post
-type: fini 
+type: projet 
 title:  "Bruyère"
 subtitle1: "Réaménagement et décoration"
 date:   2018-05-15 12:00:00 +0200
