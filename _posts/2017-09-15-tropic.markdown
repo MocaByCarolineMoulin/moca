@@ -3,7 +3,6 @@ layout: post
 type: fini
 title:  "Tropic Addict"
 subtitle1: Plan d'aménagement d'un plateau
-subtitle2: none
 link: none
 date:   2017-05-01 12:00:00 +0200
 date_fr: "01 mai 2017"
