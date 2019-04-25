@@ -1,0 +1,15 @@
+---
+layout: post
+type: fini
+title: "Projet M"
+subtitle1: Architecte Mathieu Canonge & Moca
+subtitle2: 
+link: none
+date: 2017-07-01 12:00:00 +0200
+date_fr: "1 Juillet 2017"
+location: "Montpellier"
+img_folder: "martin"
+img_num: 16
+before_num: 8
+poster: "couverture.jpg"
+---
