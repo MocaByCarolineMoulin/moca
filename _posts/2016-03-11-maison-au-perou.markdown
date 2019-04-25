@@ -1,7 +1,7 @@
 ---
 layout: post
 type: fini
-title:  "Maison au Perou"
+title:  "Maison au Peyrou"
 subtitle1: Décoration/Aménagement Christian Collot & Moca
 subtitle2: Maitre D'oeuvre Pascal Agli
 link: none
