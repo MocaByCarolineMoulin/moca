@@ -1,7 +1,7 @@
 ---
 layout: post
-type: projet
-title: "Pourcel"
+type: fini
+title: "Maison P"
 subtitle1: "Associé avec NAS Architecture"
 subtitle2:
 link: none
@@ -9,7 +9,7 @@ date: 2017-04-06 12:00:00 +0200
 date_fr: "15 Décembre 2017"
 location: "Castelnau-le-lez"
 img_folder: "pourcel"
-img_num: 1
+img_num: 8
 before_num: 0
 poster: "couverture.jpg"
 ---
