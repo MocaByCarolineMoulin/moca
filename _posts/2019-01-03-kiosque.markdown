@@ -1,0 +1,13 @@
+---
+layout: post
+type: projet 
+title:  "Le Kiosque à Malices"
+subtitle1: "Restauration"
+link: none
+date:   2018-05-15 12:00:00 +0200
+location: "Montpellier"
+img_folder: "kiosque"
+img_num: 4
+before_num: 0
+poster: "couverture.jpg"
+---
