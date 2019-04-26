@@ -1,0 +1,15 @@
+---
+layout: post
+type: fini
+title:  "Marie Orssaud Architecture"
+subtitle1: Collaboration
+subtitle2: 
+link: none
+date:   2018-12-15 12:00:00 +0200
+date_fr: "1 Octobre - 15 Décembre 2018"
+location: "Baillargues"
+img_folder: "orssaud"
+img_num: 1
+before_num: 0
+poster: "couverture.jpg"
+---
