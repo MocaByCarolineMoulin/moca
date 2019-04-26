@@ -5,7 +5,7 @@ title: "Les Frangins"
 subtitle1: "Esquisse décoration/Réalisé"
 subtitle2: "Décorateurs Christian Collot & Moca"
 link: none
-date: 2017-02-01 12:00:00 +0200
+date: 2012-02-01 12:00:00 +0200
 date_fr: "1 Février 2017"
 location: "Montpellier"
 img_folder: "lesfrangins"
