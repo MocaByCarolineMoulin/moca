@@ -2,7 +2,7 @@
 layout: post
 type: fini
 title: "Maison P"
-subtitle1: "Associé avec NAS Architecture"
+subtitle1: "Associée avec NAS Architecture"
 subtitle2:
 link: none
 date: 2017-04-06 12:00:00 +0200
